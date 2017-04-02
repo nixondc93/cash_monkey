@@ -1184,7 +1184,7 @@ body>article>footer {
     height: 24px;
     margin: 0 -100px;
     overflow: hidden;
-    padding: 10px 100px
+    padding: 10px 50px
 }
 
 body>article>footer:after {
@@ -1245,7 +1245,6 @@ body>article>footer>nav:first-child ol li {
     float: left;
     margin: 0 20px 0 0;
     overflow: hidden;
-    width: 100px
 }
 
 body>footer {
@@ -1498,10 +1497,6 @@ body>footer section small {
     float: right;
     font-size: 13px;
     opacity: 0.5
-}
-
-body>footer section:first-child {
-    border-bottom: 1px solid #e0e0e0
 }
 
 body>footer:hover section nav>ol>li>a {
