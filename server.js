@@ -18,8 +18,8 @@ app.get("/about", (req, res)=>{
     res.render('about.hbs');
 });
 
-app.get("/pricing", (req, res)=>{
-    res.render('pricing.hbs');
+app.get("/signup", (req, res)=>{
+    res.render('signup.hbs');
 });
 
 app.get("/happy-customers", (req, res)=>{
