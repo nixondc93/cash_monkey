@@ -19,6 +19,7 @@
   "homepage": "https://github.com/nixondc93/cash_monkey#readme",
   "dependencies": {
     "express": "^4.15.2",
-    "hbs": "^4.0.1"
+    "hbs": "^4.0.1",
+    "nodemon": "^1.11.0"
   }
 }
