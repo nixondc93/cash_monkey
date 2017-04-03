@@ -2622,3 +2622,22 @@ aside.tooltip.information.top:after {
     border-right-color: transparent;
     border-top-color: #00b5c5
 }
+
+#side-button{
+    margin-top: 12%;
+    left: 0;
+    position: fixed;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: #008FC5;
+    color: white;
+    padding: 12px 0;
+}
+
+#side-button:hover{
+    background: #00a2df;
+    cursor: pointer;
+}
+#side-button p{
+    margin: 0 12px;
+}
