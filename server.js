@@ -30,4 +30,6 @@ app.get("/how-it-works", (req, res)=>{
     res.render('how_it_works.hbs');
 });
 
-app.listen(process.env.Port || 3000);
+let port = process.env.PORT || CONFIG.port;
+
+app.listen(port);
