@@ -457,7 +457,7 @@ body>header:after {
 
 body>header>a {
     float: left;
-    margin-top: 15px;
+    margin-top: 12px;
     position: relative
 }
 
@@ -839,8 +839,9 @@ body>article section.proof h2 {
     font-weight: 300;
     letter-spacing: -0.025em;
     line-height: 1.5;
-    margin-bottom: 60px;
-    text-align: center
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Palanquin', sans-serif;
 }
 
 body>article section.proof blockquote {
@@ -2631,13 +2632,13 @@ aside.tooltip.information.top:after {
     border-bottom-right-radius: 3px;
     background: #008FC5;
     color: white;
+    text-align: center;
+    width: 40px;
     padding: 12px 0;
+    font-family: "Serif";
 }
 
 #side-button:hover{
     background: #00a2df;
     cursor: pointer;
-}
-#side-button p{
-    margin: 0 12px;
 }

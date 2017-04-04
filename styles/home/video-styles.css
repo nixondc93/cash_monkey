@@ -365,7 +365,7 @@ html body {
 }
 
 .bold_text {
-    font-weight: bold
+    font-family: 'Palanquin Dark', sans-serif;
 }
 
 .italic_text {
@@ -12520,4 +12520,12 @@ body.tve_editor_page #tve_editor .tve_ea_thrive_animation {
 .tve_flt .thrv_number_counter.tve_teal .tve_numberc_after,
 .tve_flt .thrv_number_counter.tve_teal .tve_numberc_text {
     color: #42a593
+}
+
+.empty_dropzone_right{
+    margin-left: 20px;
+}
+
+.how_it_works{
+    font-family: 'Palanquin Dark', sans-serif;
 }
