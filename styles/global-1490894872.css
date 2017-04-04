@@ -2642,3 +2642,7 @@ aside.tooltip.information.top:after {
     background: #00a2df;
     cursor: pointer;
 }
+
+#side-button > p{
+    line-height: 90%; 
+}

@@ -212,18 +212,18 @@ body>article>section.main ol li:before {
 }
 
 body>article>section.main ol li figure {
-    height: 170px;
+    height: 180px;
     margin: 35px 0 0 -20px;
     width: auto
 }
 
 body>article>section.main ol li figure img {
     display: block;
-    height: auto;
     margin: 0 auto 0 auto;
     position: relative;
-    width: 90%;
-    z-index: 2
+    width: 200px;
+    height: 150px;
+    z-index: 2;
 }
 
 body>article>section.main ol li:first-child {
@@ -243,7 +243,7 @@ body>article>section.main ol li.step3:after {
 }
 
 body>article>section.main ol li.step3 figure {
-    margin: 0 0 35px -20px
+    margin: 35px 0 0 0;
 }
 
 body>article>section.main ol li.step4:before {
@@ -881,7 +881,7 @@ body>article>section.quiz section.question.results ul li strong {
 
 body>article>section.feature {
     border-top: 1px solid #e2e2e2;
-    padding: 95px 0
+    padding: 65px 0
 }
 
 body>article>section.feature:after {
@@ -1531,4 +1531,21 @@ body>article>section.video h1 img {
     position: absolute;
     /*left: 620px;*/
     margin-left: 30px;
+}
+
+.section-imgs-1{
+    width: 400px;
+    height: 300px;
+}
+.section-imgs-2{
+    width: 400px;
+    height: 400px;
+}
+.section-imgs-3{
+    width: 400px;
+    height: 300px;
+}
+.section-imgs-4{
+    width: 450px;
+    height: 300px;
 }
