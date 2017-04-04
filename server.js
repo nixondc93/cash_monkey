@@ -9,7 +9,6 @@ Hbs.registerPartials(__dirname + "/views/partials");
 
 app.use(Express.static(__dirname + '/styles'));
 
-
 app.get("/", (req, res)=>{
     res.render('home.hbs');
 });
