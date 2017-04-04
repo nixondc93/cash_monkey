@@ -8,6 +8,8 @@ app.set('view engine', "Hbs");
 Hbs.registerPartials(__dirname + "/views/partials");
 
 app.use(Express.static(__dirname + '/styles'));
+app.use(Express.static(__dirname + '/images'));
+app.use(Express.static(__dirname + '/scripts'));
 
 app.get("/", (req, res)=>{
     res.render('home.hbs');

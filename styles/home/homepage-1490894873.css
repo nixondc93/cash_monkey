@@ -588,7 +588,8 @@ body>article>section.promo-area section.slider div.gallery ul li>strong a:hover 
 
 body>article>section.promo-area section.slider div.gallery ul li span {
     display: block;
-    font-size: 18px
+    font-size: 18px;
+    font-family: 'Palanquin', sans-serif;
 }
 
 body>article>section.promo-area section.slider div.gallery ul li span a {
@@ -884,17 +885,20 @@ body>article>section.main ol:after{
 }
 
 .trusted-description{
-    font-size: 25px;
+    font-size: 24px;
     text-align: center;
+    font-family: 'Palanquin', sans-serif;
 }
 
 .benefits{
     font-size: 19px;
+    font-family: 'Palanquin', sans-serif;
 }
 
 h1{
     font-weight: bold;
     font-size: 21px;
+    font-family: 'Palanquin Dark', sans-serif;
 }
 
 .border-left{
